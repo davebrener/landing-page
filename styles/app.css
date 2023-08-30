@@ -1,0 +1,40 @@
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.section--1 {
+	background: #1f2937;
+}
+
+.wrapper {
+	max-width: 1140px;
+	margin: auto;
+}
+
+.section {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 2% 4%;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: flex-end;
+	gap: 25px;
+	align-items: center;
+}
+
+.nav-menu a {
+	color: white;
+}
